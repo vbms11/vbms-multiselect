@@ -1,0 +1,58 @@
+.multiSelect {
+    display: none;
+}
+.multiSelectContainer {
+    border: 1px solid silver;
+}
+.multiSelectContainer .multiSelectHeader {
+    height: 30px;
+    border: solid silver;
+    border-width: 0px 0px 1px;
+    line-height: 30px;
+    padding-left: 5px;
+}
+.multiSelectContainer .multiSelectLeftContainer {
+    display: inline-table;
+}
+.multiSelectContainer .multiSelectRightContainer {
+    display: inline-table;
+    border-left: 1px solid silver;
+}
+.multiSelectContainer .multiSelectLeft {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.multiSelectContainer .multiSelectRight {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.multiSelectContainer .multiSelectItemContainer {
+    padding: 1px 1px 0px 1px;
+}
+.multiSelectContainer .multiSelectItem {
+    display: block;
+    padding: 3px;
+    position: relative;
+    white-space: nowrap;
+    margin-bottom: 1px;
+}
+/*
+.multiSelectContainer .multiSelectItem:first-child {
+    margin-top: 0px;
+}
+*/
+.multiSelectContainer .multiSelectItemTool {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+/* search controls */
+.multiSelectContainer .multiSelectSearch {
+    float: right;
+    margin-right: 4px;
+}
+.multiSelectContainer .multiSelectSearch input {
+    width: 100px;
+}
